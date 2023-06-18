@@ -1,0 +1,46 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .vertical-component {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+  }
+  
+  .vertical-component h2 {
+    margin: 0 0 10px;
+  }
+  
+  .vertical-component .cards {
+    min-height: 100px;
+  }
+  
+  .vertical-component .card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    /* padding: 10px; */
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .draggable-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: move;
+  }
+  
+  .card .title {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .card .description {
+    font-size: 14px;
+  }
